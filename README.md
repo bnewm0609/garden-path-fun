@@ -1,3 +1,6 @@
+__NOTE__: The only code here that is mine is in the notebook - the rest is cloned from [here](https://github.com/huggingface/pytorch-openai-transformer-lm). Thanks so much for providing this implementation!
+
+
 # PyTorch implementation of OpenAI's Finetuned Transformer Language Model
 
 This is a PyTorch implementation of the [TensorFlow code](https://github.com/openai/finetune-transformer-lm) provided with OpenAI's paper ["Improving Language Understanding by Generative Pre-Training"](https://blog.openai.com/language-unsupervised/) by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever.
