@@ -163,6 +163,8 @@ class TransformerModel(nn.Module):
         self.h = nn.ModuleList([copy.deepcopy(block) for _ in range(cfg.n_layer)])
 
         nn.init.normal_(self.embed.weight, std=0.02)
+        #altered
+        self.attn_weights = []
 
     def forward(self, x):
         x = x.view(-1, x.size(-2), x.size(-1))
@@ -171,6 +173,7 @@ class TransformerModel(nn.Module):
         h = e.sum(dim=2)
         for block in self.h:
             h = block(h)
+            self.attn_weights.append(h)
         return h
 
 
@@ -276,6 +279,7 @@ class LMModel(nn.Module):
     """ Transformer with language model head only """
     def __init__(self, cfg, vocab=40990, n_ctx=512, return_probs=False):
         super(LMModel, self).__init__()
+        print("HELLO THERE!")
         self.transformer = TransformerModel(cfg, vocab=vocab, n_ctx=n_ctx)
         self.lm_head = LMHead(self.transformer, cfg, trunc_and_reshape=False)
         self.return_probs = return_probs
@@ -286,11 +290,13 @@ class LMModel(nn.Module):
 
 
     def forward(self, x):
+        self.transformer.attn_weights = []
         h = self.transformer(x)
         lm_logits = self.lm_head(h)
         if self.return_probs:
             lm_logits = F.softmax(lm_logits + self.pos_emb_mask, dim=-1)
-        return lm_logits
+        #altered
+        return lm_logits #, self.transformer.attn_weights
 
 
 class DoubleHeadModel(nn.Module):
