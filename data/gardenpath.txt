@@ -1,0 +1,64 @@
+(1a) The faithful employees / understood the technical contract / would be changed / very soon.
+(1b) Because the employees / negotiated the technical contract / would be changed / very soon.
+(2a) The American diplomats / understood the unpopular treaty / would be altered / at the conference.
+(2b) Because the diplomats / negotiated the unpopular treaty / would be altered / at the conference.
+(3a) The young woman / accepted the valuable trophy / had to be returned / to the committee.
+(3b) After the woman / polished the valuable trophy / had to be returned / to the committee.
+(4a) The young man / accepted the enormous car / looked more expensive / than before.
+(4b) After the man / polished the enormous car / looked more expensive / than before.
+(5a) The extremely old man / recalled the angry nurse / had complained / to the doctor.
+(5b) Whenever the old man / scratched the angry nurse / had complained / to the doctor.
+(6a) The foreign traveller / heard the loud clock / had woken everybody up / in the youth hostel.
+(6b) Before the traveller / packed the loud clock / had woken everybody up / in the youth hostel.
+(7a) The tabloid journalist / confirmed the sensational story / would be published / on the front page.
+(7b) Hours after the journalist / typed the sensational story / would be published / on the front page.
+(8a) The construction workers / maintained the rickety walls / fell down / in a heap.
+(8b) After the construction worker / built the rickety walls / fell down / in a heap. 
+(9a) The clumsy apprentice / forgot the rusty bicycle / was standing / in the garage. 
+(9b) While the apprentice / painted the rusty bicycle / was standing / in the garage. 
+(10a) The industrial committee / mentioned the complex issue / would cause a problem / at the meeting.
+(10b) However much the committee / debated the complex issue / would cause a problem / at the meeting.
+(11a) The British army / found the expensive medical supplies / saved many lives / during the conflict.
+(11b) Although the army / lost the expensive medical supplies / saved many lives / during the conflict.
+(12a) The Labour candidate / found the secret documents / could be very useful / to the press.
+(12b) If the Tory candidate / lost the secret documents / could be very useful / to the press.
+(13a) The chartered accountants / announced the impressive results / had appeared / in the report.
+(13b) Before the accountants / investigated the impressive results / had appeared / in the report.
+(14a) The corporate lawyers / announced the controversial proposals / would be sent / for approval.
+(14b) Before the lawyers / investigated the controversial proposals / would be sent / for approval.
+(15a) The tall football manager / discovered the skillful player / tried to show off / all the time.
+(15b) Because the football manager / watched the skillful player / tried to show off / all the time.
+(16a) The tall theatre director / discovered the young actor / got stage fright / very badly.
+(16b) Because the theatre director / watched the young actor / got stage fright / very badly.
+(17a) The young woman / noticed the fluffy sweater / changed shape / quite badly.
+(17b) While the woman / knitted the fluffy sweater / changed shape / quite badly.
+(18a) The younger children / noticed the woollen socks / were the wrong colour / for school.
+(18b) Because the children / knitted the woollen socks / were the wrong colour / for school.
+(19a) The Japanese coach party / saw the famous palace / was being restored / very carefully.
+(19b) When the coach party / visited the famous palace / was being restored / very carefully.
+(20a) The Australian woman / saw the famous doctor / had been drinking / quite a lot.
+(20b) Before the woman / visited the famous doctor / had been drinking / quite a lot.
+(21a) The old market researcher / acknowledged the clever assistant / worked very hard / on the project.
+(21b) While the market researcher / questioned the clever assistant / worked very hard / on the project.
+(22a) The tall lawyer / acknowledged the young witness / had been successful / in convincing the jury.
+(22b) Before the lawyer / questioned the young witness / had been successful / in convincing the jury.
+(23a) The tall knights / remembered the ancient castle / had been defended / very heavily.
+(23b) Before the knights / attacked the ancient castle / had been defended / very heavily.
+(24a) The tall fighter pilots / remembered the camouflaged airfield / was evacuated / very quickly.
+(24b) Before the fighter pilots / attacked the camouflaged airfield / was evacuated / very quickly.
+(25a) The old soldiers / remembered the industrial town / had been flattened / in the bombing raid.
+(25b) Before the soldiers / invaded the industrial town / had been flattened / in the bombing raid.
+(26a) The big policemen / remembered the remote peace camp / had been filmed / by the BBC.
+(26b) Before the policemen / invaded the remote peace camp / had been filmed / by the BBC.
+(27a) The academic publisher / read the controversial manuscript / had been reviewed / by a professor.
+(27b) Before the publisher / edited the controversial manuscript / had been reviewed / by a professor.
+(28a) The contemporary fashion writer / read the famous magazine / was having trouble / with its finances.
+(28b) Even after the fashion writer / edited the famous magazine / was having trouble / with its finances.
+(29a) The tall archaeologist / revealed the valuable coins / had gone missing / from the site.
+(29b) Before the archaeologist / washed the valuable coins / had gone missing / from the site.
+(30a) The French male stripper / revealed his oily chest / felt uncomfortable / in the heat.
+(30b) Whenever the male stripper / washed his oily chest / felt uncomfortable / in the heat.
+(31a) The young journalist / revealed the corrupt politician / received some payments / from the millionaire.
+(31b) While the journalist / followed the corrupt politician / received some payments / from the millionaire.
+(32a) The old secretary / doubted the incriminating report / would be distributed / to many people.
+(32b) After the secretary / typed the incriminating report / would be distributed / to many people.

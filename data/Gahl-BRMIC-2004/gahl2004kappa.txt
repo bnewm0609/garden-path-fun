@@ -1,0 +1,73 @@
+"Agreement between pairs of corpora, measured by kappa, based on the percentage of sentences judged ""transitive"", with a minimum sample size of 40 instances per verb in both corpora:"											
+"DO, cutoff"	Norma	Brown	Comlex	Lapata	Switchboard	WSJ	Connine	Garnsey	Holmes*	Kennison	Trueswell
+Norma		0.56	0.65	0.36	0.33	0.37	0.46	0.42	0.19	0.24	0.43
+Brown	0.56		0.61	0.2	0.68	0.64	0.58	0.25	0.23	0.2	0.48
+COMLEX	0.65	0.61		0.33	0.57	0.41	0.55	0.32	0.33	0.28	0.41
+Lapata	0.36	0.2	0.33		0.28	0.14	0.21	0.14	0.39	0.23	0.05
+Switchboard	0.33	0.68	0.57	0.28		0.59	0.57	0.39	0.53	0.23	0.45
+WSJ	0.37	0.64	0.41	0.14	0.59		0.54	0.32	0.25	0.46	0.33
+Connine	0.46	0.58	0.55	0.21	0.57	0.54		0.24	0.42	0.37	0.33
+Garnsey	0.42	0.25	0.32	0.14	0.39	0.32	0.24		0.27	0.62	0.71
+Holmes	0	0	0	0	0	0	0	0		0	0
+Kennison	0.24	0.2	0.28	0.23	0.23	0.46	0.37	0.62	0.27		0.57
+Trueswell	0.43	0.48	0.41	0.05	0.45	0.33	0.33	0.71	0.29	0.57	
+MEAN	0.382	0.42	0.413	0.194	0.409	0.38	0.385	0.341	0.317	0.32	0.376
+MEAN-corpora	0.454	0.5325	0.48	0.2375	0.53	0.445	0.49	0.284	0.346	0.28	0.344
+MEAN-norming	0.31	0.302	0.312	0.126	0.328	0.33	0.235	0.3925	0.3125	0.39	0.4025
+"*The Holmes et al. data contain 39 datapoints per verb. Although this just misses our arbitrary cutoff of 40, we decided to enter these data into the comparison anyway. "											
+
+"Agreement between pairs of corpora, measured by kappa, based on the ratio of tokens judged ""transitive"" to tokens with sentential complements , with a minimum sample size of 40 instances per verb in both corpora:"											
+"Ratio, cutoff:"	Norma	Brown	Comlex	Lapata	Switchboard	WSJ	Connine	Garnsey	Holmes	Kennison	Trueswell
+Norma		0.83	0.78	0.29	1	0.54	1	0.46	0.35	0.34	0.48
+Brown	0.83		0.86	0.3	0.77	0.64	0.83	0.41	0.37	0.65	0.44
+COMLEX	0.78	0.86		0.29	0.86	0.62	0.76	0.41	0.5	0.45	0.43
+Lapata	0.29	0.3	0.29		0.52	0.31	0.25	0.36	0.3	0.16	0.15
+Switchboard	1	0.77	0.86	0.52		0.74	1	0.75	0.22	undef.	0
+WSJ	0.54	0.64	0.62	0.31	0.74		0.64	0.33	0.23	0.39	0.35
+Connine	1	0.83	0.76	0.25	1	0.64		0.78	0.36	-0.14	0.7
+Garnsey	0.46	0.41	0.41	0.36	0.75	0.33	0.78		0.44	0.67	0.63
+Holmes	0	0	0	0	0	0	0	0		0	0
+Kennison	0.34	0.65	0.45	0.16	undef.	0.39	-0.14	0.67	undef.		0.53
+Trueswell	0.48	0.44	0.43	0.15	0	0.35	0.7	0.63	0.32	0.53	
+"MEAN, (1)"	0.572	0.573	0.546	0.263	0.626666667	0.456	0.582	0.48	0.343333333	0.338888889	0.371
+MEAN-corpora	0.688	0.6425	0.6575	0.355	0.7225	0.5775	0.696	0.452	0.324	0.4125	0.274
+MEAN-norming	0.456	0.466	0.41	0.184	0.4375	0.342	0.335	0.52	0.373333333	0.265	0.465
+
+
+
+"Agreement between pairs of corpora, measured by kappa, based on the percentage of sentences judged ""transitive"", no minimum sample size"											
+	Norma	Brown	Comlex	Lapata	Switchboard	WSJ	Connine	Garnsey	Holmes	Kennison	Trueswell
+Norma		0.55	0.65	0.34	0.32	0.41	0.45	0.44	0.19	0.22	0.45
+Brown	0.55		0.57	0.18	0.43	0.57	0.58	0.19	0.23	0.2	0.47
+COMLEX	0.65	0.57		0.32	0.37	0.46	0.55	0.32	0.33	0.25	0.41
+Lapata	0.34	0.18	0.32		0.25	0.2	0.19	0.15	0.39	0.2	undef.*
+Switchboardb	0.32	0.43	0.37	0.25		0.44	0.48	0.29	0.53	0.34	0.41
+WSJ	0.41	0.57	0.46	0.2	0.44		0.48	0.32	0.25	0.39	0.29
+Connine	0.45	0.58	0.55	0.19	0.48	0.48		0.24	0.42	0.37	0.51
+Garnsey 2	0.44	0.19	0.32	0.15	0.29	0.32	0.24		0.27	0.58	0.71
+Holmes	0.19	0.23	0.33	0.36	0.53	0.25	0.42	0.27		0.26	0.29
+Kennison	0.22	0.2	0.25	0.2	0.34	0.39	0.37	0.58	0.26		0.52
+Trueswell	0.45	0.47	0.41	0.12	0.41	0.29	0.51	0.76	0.29	0.51	
+"MEAN, (1)"	0.402	0.397	0.423	0.231	0.386	0.381	0.427	0.356	0.316	0.332	0.451111111
+MEAN-corpora	0.454	0.4375	0.43	0.2375	0.3725	0.4175	0.456	0.254	0.346	0.276	0.395
+MEAN-norming	0.35	0.334	0.372	0.204	0.41	0.346	0.385	0.4625	0.31	0.43	0.5075
+"* kappa undefined, since none of the verbs classified as highly transitive in Trueswell are so classified in Lapata. "											
+
+
+
+"Agreement between pairs of corpora, measured by kappa, based on the ratio of tokens judged ""transitive"" to tokens with sentential complements , no minimum sample size"											
+"Ratio, no cutoff:"	Norma	Brown	Comlex	Lapata	Switchboard	WSJ	Connine	Garnsey	Holmes	Kennison	Trueswell
+Norma		0.75	0.75	0.3	0.53	0.49	0.6	0.5	0.44	0.31	0.42
+Brown	0.75		0.73	0.29	0.53	0.52	0.61	0.42	0.43	0.35	0.47
+COMLEX	0.75	0.73		0.31	0.53	0.73	0.54	0.32	0.52	0.26	0.4
+Lapata	0.3	0.29	0.31		0.33	0.3	0.28	0.32	0.27	0.24	0.09
+Switchboardb	0.53	0.53	0.53	0.33		0.5	0.59	0.4	0.56	0.23	0.37
+WSJ	0.49	0.52	0.73	0.3	0.5		0.37	0.31	0.35	0.34	0.34
+Connine	0.6	0.61	0.54	0.28	0.59	0.37		0.77	0.49	0.48	0.67
+Garnsey 2	0.5	0.42	0.32	0.32	0.4	0.31	0.77		0.44	0.41	0.61
+Holmes	0.44	0.43	0.52	0.27	0.56	0.35	0.49	0.44		0.23	0.01
+Kennison	0.31	0.35	0.26	0.24	0.23	0.34	0.48	0.41	0.23		0.58
+Trueswell	0.42	0.47	0.4	0.09	0.36	0.34	0.67	0.61	0.25	0.58	
+"MEAN, (1)"	0.509	0.51	0.509	0.273	0.456	0.425	0.54	0.45	0.398	0.343	0.396
+MEAN-corpora	0.564	0.5175	0.575	0.3075	0.4725	0.5125	0.478	0.354	0.426	0.284	0.334
+MEAN-norming	0.454	0.456	0.408	0.24	0.428	0.342	0.6025	0.5575	0.3525	0.425	0.4675
