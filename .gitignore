@@ -111,3 +111,7 @@ venv.bak/
 # mypy
 .mypy_cache/cloze_data
 cloze_data/
+
+# vim
+*.swp
+*.swo
