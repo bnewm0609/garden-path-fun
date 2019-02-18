@@ -23,6 +23,7 @@ def make_batch(X):
 
 def append_batch(X, next_idx):
     next_pos = X[:, -1:, 1] + 1
+    print(next_pos)
     next_x = torch.cat((next_idx, next_pos), -1).unsqueeze(1)
     return torch.cat((X, next_x), 1)
 

@@ -72,7 +72,7 @@ class Attention(nn.Module):
         # [switch nx => n_state from Block to Attention to keep identical to TF implem]
         assert n_state % cfg.n_head == 0
         self.register_buffer('b', torch.tril(torch.ones(n_ctx, n_ctx)).view(1, 1, n_ctx, n_ctx))
-        self.n_head = cfg.n_head
+        self.n_head = cfg.n_head # usually 12 - B
         self.split_size = n_state
         self.scale = scale
         self.c_attn = Conv1D(n_state * 3, 1, nx)
@@ -119,7 +119,7 @@ class Attention(nn.Module):
         return a
 
 
-class MLP(nn.Module):
+class MLP(nn.Module): # Max Layer Pooling?
     def __init__(self, n_state, cfg):  # in MLP: n_state=3072 (4 * n_embd)
         super(MLP, self).__init__()
         nx = cfg.n_embd
@@ -172,8 +172,8 @@ class TransformerModel(nn.Module):
         # Add the position information to the input embeddings
         h = e.sum(dim=2)
         for block in self.h:
+            self.attn_weights.append(block.attn(h))
             h = block(h)
-            self.attn_weights.append(h)
         return h
 
 
@@ -285,7 +285,7 @@ class LMModel(nn.Module):
         self.return_probs = return_probs
         if self.return_probs:
             pos_emb_mask = torch.zeros(1, 1, vocab)
-            pos_emb_mask[:, :, -n_ctx:] = -1e12
+            pos_emb_mask[:, :, -n_ctx:] = -1e12 # makes sure positional embeddings aren't chosen by lm - B
             self.register_buffer('pos_emb_mask', pos_emb_mask)
 
 
